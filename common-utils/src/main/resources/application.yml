@@ -1,0 +1,17 @@
+spring:
+  profiles: default
+
+rest:
+  connectionTimeoutMillis: 20000
+  readTimeoutMillis: 60000
+  maxConnectionsPerHost: 25
+  maxTotalConnections: 25
+  httpProxyEnabled: false
+  httpProxyHost: localhost
+  httpProxyPort: 8888
+---
+spring:
+  profiles: test
+
+rest:
+  connectionTimeoutMillis: 30000
