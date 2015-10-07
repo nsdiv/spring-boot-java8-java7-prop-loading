@@ -2,9 +2,9 @@ Found a weird bug in spring boot (or is it JAVA 8?). The precedence of loading t
 
 Steps to reproduce
 ------------------
-* set JAVA_HOME to java 1.7
+* set JAVA_HOME to java 1.7 (I'm using 1.7.0_67)
 * run mvn clean install. Tests pass.
-* set JAVA_HOME to java 1.8
+* set JAVA_HOME to java 1.8 (I'm using 1.8.0_60)
 * run mvn clean install. Tests fail.
 
 Description of Issue
