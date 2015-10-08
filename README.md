@@ -1,4 +1,4 @@
-Found a weird bug in spring boot (or is it JAVA 8?). The precedence of loading the profiles is reversed when I switch between JAVA 7 and JAVA 8.
+Found a bug in spring boot (or is it JAVA 8?). The precedence of loading the profiles is reversed when I switch between JAVA 7 and JAVA 8. Reference to git issue - https://github.com/spring-projects/spring-boot/issues/4111
 
 Steps to reproduce
 ------------------
