@@ -9,7 +9,7 @@ Steps to reproduce
 
 Description of Issue
 ------------------
-There are two profiles that are loaded - default and dev.
+There are two profiles that are loaded - default and test.
 
 Here is the application.yml file
 ```
